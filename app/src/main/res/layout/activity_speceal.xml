@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpecealActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bestfone"
+        android:contentDescription="@string/specealscrol">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textSp1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="ЛУЧШИЕ ЦИТАТЫ ИЛОНА МАСКА"
+                android:gravity="center"
+                android:textStyle="bold|italic"
+                android:textSize = "30sp"
+                android:textColor="@color/white" />
+            <TextView
+                android:id="@+id/textSp2"
+                android:layout_marginBottom="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="«Неудача на самом деле - шанс. Если что-то не дает, значит, вы недостаточно вводите новшества ». - Илон Маск"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp3"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="«Если что-то не сильно важно, даже если шансы против вас, вы все равно должны это сделать». -  Илон Маск"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp4"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="«Переходя из PayPal, я подумал:« А какие еще проблемы, вероятно, больше всего повлияют на будущее человечества? » Не с точки зрения: «Как лучше всего зарабатывать деньги?» -  Илон Маск"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp5"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="«( Физика ) является хорошей основой для мышления. … Сведите все к их фундаментальным истинам и рассудите оттуда ». -  Илон Маск"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp6"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="«Бренд - это всего лишь восприятие, и оно со временем будет соответствовать тому, что происходит. Иногда он будет впереди, иногда - позади. Но бренд - это просто общее мнение большинства о неком продукте». -  Илон Маск"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp7"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="«Первый шаг - определить, что что-то возможно; тогда появится вероятность ». -  Илон Маск"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp8"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="«Вы должны быть очень строги в том, чтобы делать все, что только возможно. Найдите все, что с этим не так, и исправьте. Ищите отрицательные отзывы, особенно от друзей ». -  Илон Маск"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp9"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" «Хранить яйца в одной корзине - это нормально, если вы контролируете, что с этой корзиной происходит». -  Илон Маск"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp10"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="«Настойчивость очень важна. Вы не должны сдаваться, если вас не заставят сдаться ». -  Илон Маск"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp11"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="«Начало и развитие бизнеса - это не только новаторство, стремление и решимость людей, которые этим занимаются, но и продукт, который они продают». -  Илон Маск"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp12"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="«Вы хотите иметь будущее, в котором вы ожидаете, что все будет лучше, а не такое, в котором вы ожидаете, что все будет хуже». -  Илон Маск"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp13"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="«Будет неправильным нанимать много специалистов, чтобы решить какую то сложную задачу. Числа никогда не компенсируют талант в получении правильного ответа ( два человека, которые чего-то не знают, не лучше, чем один ), будут замедлять прогресс и сделают задачу невероятно дорогой ». -  Илон Маск"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp14"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="«Чтобы это произошло, нужно быть очень возбужденным. В противном случае вы просто станете несчастным ». -  Илон Маск"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp15"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="«Работай как в аду. Пашите, как раб на галерах, как раб на плантации, по 100 часов в неделю. Это увеличивает шансы на успех. Если другие люди работают по 40 часов в неделю, а вы - по 100 часов, то, даже если вы делаете то же самое, вы знаете, что… вы достигнете за 4 месяца того, на что им нужен год. ” -  Илон Маск"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp16"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="«Если вы вернетесь на несколько сотен лет назад, то, что мы считаем само собой разумеющимся сегодня, покажется волшебством - возможность разговаривать с людьми на большие расстояния, передавать изображения, летать, получать доступ к огромным объемам данных, как оракул. Это все, что несколько сотен лет назад считалось магией. -  Илон Маск"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp17"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="«Люди работают лучше, когда знают, какова цель и почему. Важно, чтобы люди с нетерпением ждали возможности приходить на работу утром и получать от нее удовольствие ». -  Илон Маск"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp18"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="«Моя самая большая ошибка, вероятно, заключается в том, что я слишком сильно полагаюсь на чей-то талант, а не на чью-то личность. Я думаю, важно, есть ли у кого-то доброе сердце ». -  Илон Маск"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp19"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="«Одно единственное, что имеет смысл, - это стремиться к большему коллективному просветлению». -  Илон Маск"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp20"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="«Я пришел к выводу, что мы должны постоянно увеличивать свой же успех, масштабировать его, размах и масштаб человеческого сознания, чтобы лучше понимать, какие вопросы задавать. На самом деле единственное, что имеет смысл, - это стремиться к большему коллективному просвещению ». -  Илон Маск"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp21"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="«Если вы пытаетесь создать компанию, это все равно, что печь торт. У вас должны быть все ингредиенты в правильной пропорции ». -  Илон Маск"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp22"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="«Я думаю, что очень важно иметь цикл обратной связи, в котором вы постоянно думаете о том, что вы сделали, и как вы могли бы сделать это лучше. Я думаю, что это единственный лучший совет: постоянно думайте о том, как вы могли бы сделать что-то лучше, и задавайте себе вопросы ». -  Илон Маск"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp23"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="«Я бы не сказал, что мне не хватает страха. На самом деле, я бы хотел, чтобы мои эмоции страха были меньше, потому что они очень отвлекают и поджигают мою нервную систему ». -  Илон Маск"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp24"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="«Моя мотивация для всех моих компаний заключалась в том, чтобы участвовать в чем-то, что, как я думал, окажет значительное влияние на мир». - Илон Маск"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp25"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="«Если что-то достаточно важное, попробуйте. Даже если знаешь - вероятный исход - неудача ». - Илон Маск"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp26"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="«Жизнь слишком коротка для долгих обид». -  Илон Маск"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp27"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="«Я думаю, что жизнь на Земле должна быть больше, чем просто решение проблем ... Это должно быть что-то вдохновляющее, даже если оно косвенное». -  Илон Маск"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp28"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text ="«Сама идея лежать на пляже как моя главная вещь звучит как худшая. Для меня это звучит ужасно. Я бы сошел с ума. Придется принять серьезные наркотики. Мне было бы супер скучно. Мне нравится высокая интенсивность ». -  Илон Маск"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp29"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="«Я мог бы либо смотреть, как это происходит, либо быть частью этого». - Илон Маск"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp30"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="«Не бойтесь новых арен». - Илон Маск"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp31"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="«[В детстве] я просто задавал вопросы…» - Илон Маск."
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
